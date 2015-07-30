@@ -47,7 +47,7 @@ Packages installed locally are downloaded from NPM registry to a folder named `n
 
 When sharing a project whith colleagues you don't ship `node_modules` directory, but only `package.json` file. When receiving the project you (or your colleagues) just run `npm install` from their console and every package listed on `package.json` will be installed locally automatically. This allows lightweight sharing and setup. Basically you are sharing an "installer".
 
-*Remember:* Directory `node_modules` should NOT be tracked by version control, only track/share/publish `package.json`.
+**Remember:** Directory `node_modules` should NOT be tracked by version control, only track/share/publish `package.json`.
 
 *Source: https://docs.npmjs.com/getting-started/installing-npm-packages-locally*
 
