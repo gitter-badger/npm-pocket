@@ -1,4 +1,4 @@
-# NPM: Pocket Guide For Busy People
+# NPM Pocket Guide For Busy People
 
 ## Definition
 
