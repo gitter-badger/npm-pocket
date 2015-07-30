@@ -16,7 +16,7 @@ NPM maintains a registry of Node packages and offers a command line interface (C
 
 ## Install
 
-NPM comes with Node, so refer to [Node Pocket Guide](https://github.com/heyallan/node) for installation.
+NPM comes with Node, so refer to [Node Pocket Guide](https://github.com/heyallan/node-pocket) for installation.
 
 ## Update
 
