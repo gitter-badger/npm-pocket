@@ -1,20 +1,27 @@
-# NPM For Busy People
+# NPM: Pocket Guide For Busy People
 
 ## Definition
-NPM: Node Package Manager
+
+[NPM](https://www.npmjs.com/): Node Package Manager
 
 ## Purpose
-Source: https://docs.npmjs.com/getting-started/what-is-npm
 
-Maintain a registry of Node packages. Offers a CLI to install/unistall packages.
+Store, install, uninstall, update, Node packages from command line.
+
+## Overview
+
+NPM maintains a registry of Node packages. Offers a CLI (command line interface) to manage packages.
+
+*Source: https://docs.npmjs.com/getting-started/what-is-npm*
 
 ## Install
-- Requires Node: https://nodejs.org/
-- Tutorial: https://github.com/heyallan/node
 
-NPM comes with Node installation, so refer to Node for installtion
+NPM comes with Node, so refer to Node for installation.
+
+See [Node](https://github.com/heyallan/node) (pocket guide)
 
 ## Update
+
 ```shell
 ## update
 $ npm cache clean
@@ -25,11 +32,10 @@ $ curl -L https://www.npmjs.org/install.sh | sh
 ```
 
 ## Example
-Source: https://docs.npmjs.com/getting-started/installing-npm-packages-locally
 
 Packages can be installed globally to be executed at any location, or locally to be executedonly inside project folder.
 
-Node uses a `package.json` to save detais about what you have installed. NPM will use this file to remember and follow your preferences.
+Node uses a `package.json` file to save details of what you have installed. NPM will use this file to remember your setup and follow your preferences.
 
 ```shell
 ## create package.json file to save details
@@ -41,6 +47,8 @@ $ npm install --global gulp
 ## install gulp in project folder and save details to package.json
 $ npm install --save-dev gulp
 ```
+
+*Source: https://docs.npmjs.com/getting-started/installing-npm-packages-locally*
 
 ## Reference
 https://nodejs.org/api/
