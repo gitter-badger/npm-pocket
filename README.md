@@ -2,7 +2,7 @@
 
 ## Definition
 
-[NPM](https://www.npmjs.com/): Node Package Manager
+[NPM](https://www.npmjs.com/) Node Package Manager
 
 ## Purpose
 
@@ -10,15 +10,13 @@ Store, install, uninstall, update, Node packages from command line.
 
 ## Overview
 
-NPM maintains a registry of Node packages. Offers a CLI (command line interface) to manage packages.
+NPM maintains a registry of Node packages and offers a command line interface (CLI) to manage packages. Packages can be installed globally, or locally (i.e. relative to your project folder).
 
 *Source: https://docs.npmjs.com/getting-started/what-is-npm*
 
 ## Install
 
-NPM comes with Node, so refer to Node for installation.
-
-See [Node](https://github.com/heyallan/node) (pocket guide)
+NPM comes with Node, so refer to [Node Pocket Guide](https://github.com/heyallan/node) for installation.
 
 ## Update
 
@@ -33,20 +31,24 @@ $ curl -L https://www.npmjs.org/install.sh | sh
 
 ## Example
 
-Packages can be installed globally to be executed at any location, or locally to be executedonly inside project folder.
-
-Node uses a `package.json` file to save details of what you have installed. NPM will use this file to remember your setup and follow your preferences.
-
 ```shell
-## create package.json file to save details
+## create package.json
 $ npm init
 
-## install gulp globally
+## install gulp (a package) globally
 $ npm install --global gulp
 
 ## install gulp in project folder and save details to package.json
 $ npm install --save-dev gulp
 ```
+
+Packages installed locally are downloaded from NPM registry to a folder named `node_modules`.
+
+The option `--save-dev` will automatically save installation details to `package.json`.
+
+When sharing a project you don't ship `node_modules`, but `package.json`. When receiving the project you (or your colleagues) just run `npm install` from console to install packages according to `package.json`. This allows lightweight sharing and straight forward setup.
+
+Directory `node_modules` should NOT be tracked by version control, only track `package.json`.
 
 *Source: https://docs.npmjs.com/getting-started/installing-npm-packages-locally*
 
