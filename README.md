@@ -10,7 +10,7 @@ Store, install, uninstall, update, Node packages from command line.
 
 ## Overview
 
-NPM maintains a registry of Node packages and offers a command line interface (CLI) to manage packages. Packages can be installed globally, or locally (i.e. relative to your project folder).
+NPM maintains a registry of Node packages and offers a command line interface (CLI) to manage them. Packages can be installed globally and/or locally.
 
 *Source: https://docs.npmjs.com/getting-started/what-is-npm*
 
@@ -43,8 +43,9 @@ $ npm install --save-dev gulp
 ```
 Options
 
+`npm init` looks for an existing `package.json` befor creating a new one<br/>
 `--global` installs the package's CLI globally, so it can be run from command line<br/>
-`--save-dev` installs the package's API locally (to `node_modules`), so it can be run from other packages<br/>
+`--save-dev` installs the package's API locally (to `node_modules`), so it can be consumed by other packages<br/>
 `--save-dev` saves installation details to `package.json` automatically<br/>
 
 ## Also important
