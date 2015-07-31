@@ -41,10 +41,11 @@ $ npm install --global gulp
 ## install gulp relative to project folder
 $ npm install --save-dev gulp
 ```
+Options
 
-- `--global` installs the package's CLI, so it can be run from command line
-- `--save-dev` installs the package's API (source) to `node_modules`, so it can be run from other packages
-- `--save-dev` saves installation details to `package.json` automatically
+`--global` installs the package's CLI globally, so it can be run from command line<br/>
+`--save-dev` installs the package's API locally (to `node_modules`), so it can be run from other packages<br/>
+`--save-dev` saves installation details to `package.json` automatically<br/>
 
 ## Also important
 
