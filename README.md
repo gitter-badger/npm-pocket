@@ -6,7 +6,7 @@
 
 ## Purpose
 
-Store, install, uninstall, update, Node packages from command line.
+Store, install, uninstall, update, all Node packages (modules) from command line
 
 ## Overview
 
