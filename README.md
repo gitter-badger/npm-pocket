@@ -41,13 +41,14 @@ $ npm install --global gulp
 ## install gulp relative to project folder
 $ npm install --save-dev gulp
 ```
-The option `--save-dev` will save installation details to `package.json` automatically.
 
-Packages installed locally are downloaded from NPM registry to a folder named `node_modules`.
+- `--global` installs the package's CLI, so it can be run from command line
+- `--save-dev` installs the package's API (source) to `node_modules`, so it can be run from other packages
+- `--save-dev` saves installation details to `package.json` automatically
 
-When sharing a project whith colleagues you don't ship `node_modules` directory, but only `package.json` file. When receiving the project you (or your colleagues) just run `npm install` from their console and every package listed on `package.json` will be installed locally automatically. This allows lightweight sharing and setup. Basically you are sharing an "installer".
+## Also important
 
-**Remember:** Directory `node_modules` should NOT be tracked by version control, only track/share/publish `package.json`.
+When deploying you don't ship `node_modules`, nor track it with Git, use `package.json` instead. When receiving the project you (or your colleagues) must run `npm install` from their console, and NPM will install every package listed on `package.json`. This allows lightweight sharing and reproducible setup. Basically you are sharing an "installer".
 
 *Source: https://docs.npmjs.com/getting-started/installing-npm-packages-locally*
 
