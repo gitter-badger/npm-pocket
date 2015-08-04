@@ -58,4 +58,4 @@ $ curl -L https://www.npmjs.org/install.sh | sh
 ```
 
 ## Reference
-https://nodejs.org/api/
+https://www.npmjs.com/
