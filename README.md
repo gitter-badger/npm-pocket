@@ -33,10 +33,10 @@ $ npm install --save-dev gulp
 
 Options:
 
-`npm init` looks for an existing `package.json` file, if not, it creates a new one<br/>
-`npm install` installs the package's API to `node_modules`, so Node can run it as a javascript module<br/>
-`--global` installs the package's CLI globally, so Node can run it as a CLI<br/>
-`--save-dev` saves package's details to `package.json`<br/>
+- `npm init` looks for an existing `package.json` file, if not, it creates a new one
+- `npm install` installs the package's API to `node_modules` folder, so Node can run it as a javascript module
+- `--global` installs the package's CLI globally, so Node can run it as a CLI
+- `--save-dev` saves all package's details to `package.json` so you can keep track of all installations
 
 *See all npm install options https://docs.npmjs.com/cli/install*
 
