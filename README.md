@@ -49,7 +49,7 @@ When deploying a website, you don't ship `node_modules` folder, nor track it wit
 ## Update
 
 ```shell
-## update
+## update npm
 $ npm cache clean
 $ sudo npm install -g npm@latest
 
