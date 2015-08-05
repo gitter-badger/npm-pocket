@@ -12,6 +12,8 @@ Store, install, uninstall, update, any Node packages (modules)
 
 NPM maintains a registry of Node packages at [npmjs.org](npmjs.org), and offers a command line interface (CLI) to manage them from your local computer, or server.
 
+**Important:** You don't need to be working on a node-based project to used NPM. Installing node just for NPM is also ok.
+
 *Source: https://docs.npmjs.com/getting-started/what-is-npm*
 
 ## Install
