@@ -21,7 +21,7 @@ NPM maintains a registry of Node packages at [npmjs.org](npmjs.org), and offers 
 
 ## Install
 
-NPM comes with Node, refer to [Node Pocket Guide](https://github.com/heyallan/node-pocket)
+NPM comes with Node, see [Node Pocket Guide](https://github.com/heyallan/node-pocket)
 
 ## Example
 
